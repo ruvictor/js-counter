@@ -9,7 +9,7 @@ body{
     width: 100%;
     max-width: 500px;
     display: table;
-    margin: 10% auto;
+    margin: 20px auto 10%;;
     border-radius: 3px;
 }
 
@@ -32,4 +32,8 @@ body{
 .counters div{
     width: 100%;
     text-align:center
+}
+
+.counter{
+    font-weight: bold;
 }
