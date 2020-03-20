@@ -1,11 +1,12 @@
 ///// counters 
-const allDivCounters = document.querySelectorAll('#counter');
 const speed = 200;
 
-allDivCounters.forEach(counter => {
+document.querySelectorAll('#counter').forEach(counter => {
+
+    const counterNumber = +counter.getAttribute('countTo');
 
     const updateCount = setInterval(() => {
-        const counterNumber = +counter.getAttribute('countTo');
+        
         const divContent = +counter.innerText;
         const increaseBy = counterNumber / speed;
 
