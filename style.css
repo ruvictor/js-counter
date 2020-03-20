@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:#ddd;
+}
+
+#main{
+    background-color: #fff;
+    width: 100%;
+    max-width: 500px;
+    display: table;
+    margin: 10% auto;
+    border-radius: 3px;
+}
+
+.title{
+    background-color: orange;
+    color: #fff;
+    padding: 10px;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.counters{
+    margin-top: 1500px;
+    padding: 10px;
+    list-style-type: none;
+    display: flex;
+}
+.counters div{
+    width: 100%;
+    text-align:center
+}
