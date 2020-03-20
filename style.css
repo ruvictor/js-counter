@@ -9,12 +9,12 @@ body{
     width: 100%;
     max-width: 500px;
     display: table;
-    margin: 20px auto 10%;;
+    margin: 10% auto;
     border-radius: 3px;
 }
 
 .title{
-    background-color: orange;
+    background-color: #27a497;
     color: #fff;
     padding: 10px;
     border-top-right-radius: 3px;
@@ -24,7 +24,6 @@ body{
 }
 
 .counters{
-    margin-top: 1500px;
     padding: 10px;
     list-style-type: none;
     display: flex;
@@ -34,6 +33,6 @@ body{
     text-align:center
 }
 
-.counter{
+#counter{
     font-weight: bold;
 }
